@@ -1,6 +1,6 @@
 #conteudo-page-error{
 
-    background-color:  --color-background-secondary;
+    background-color:  var(--color-background-secondary);
     z-index: 1;
     
     margin-left: 0%;

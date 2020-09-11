@@ -11,7 +11,7 @@
 .page-footer-container{
     width: 100vw;
     height: 8vh;
-    background-color: --color-background;
+    background-color: var(--color-background);
 }
 
 .page-footer-container{

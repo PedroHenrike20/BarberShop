@@ -8,7 +8,7 @@ function Cadastro(){
     return(
         <div id="conteudo-page-cadastro">
             <div className="conteudo-content">
-                <h1>Cadastro de Usuário</h1>
+                <h1>Page Cadastro</h1>
             </div>
         </div>
             

@@ -5,7 +5,7 @@ function Login(){
     return(
         <div id="conteudo-page-login">
             <div className="conteudo-content">
-                <h1>Gabriel Gay</h1>
+                <h1> Page Login</h1>
             </div>
         </div>
     

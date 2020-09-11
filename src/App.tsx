@@ -4,15 +4,6 @@ import Routes from './routes';
 
 
 function App() {
-
-  // const Error = ()=>{
-  //   return(
-  //     <div>
-  //       <h1>Error!</h1>
-  //       <h3>Page notFound!</h3>
-  //     </div>
-  //   );
-  // }
   return (
     <div>
       <Routes/>
