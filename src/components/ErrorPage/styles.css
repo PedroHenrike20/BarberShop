@@ -1,0 +1,39 @@
+#conteudo-page-error{
+
+    background-color:  --color-background-secondary;
+    z-index: 1;
+    
+    margin-left: 0%;
+    width: 47.4vw;
+    height: 72.69vh;
+    border-radius: 5em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+
+
+}
+
+.conteudo-content{
+    flex-direction: column;
+}
+
+.conteudo-content p {
+    padding-top: 40px;
+}
+
+.conteudo-content h1{
+    font-weight: 500;
+    font-size: 5.5rem;
+    font-family: Poppins;
+}
+
+.conteudo-content p{
+    font-weight: 500;
+    font-size: 3.2rem;
+    font-family: Poppins;
+    margin-bottom: 20%;
+}

@@ -1,0 +1,37 @@
+#footer-container{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    border-top: 1px solid #ccc
+
+}
+
+.page-footer-container{
+    width: 100vw;
+    height: 8vh;
+    background-color: --color-background;
+}
+
+.page-footer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.container-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.LogoFooter{
+    margin-top: 5px;
+    width: 25rem;
+}
+
+@media only screen and (max-device-width: 900px){
+    #footer-container{
+        width: 100vw;
+        height: 7vh;
+    }
+}

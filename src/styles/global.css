@@ -1,0 +1,60 @@
+:root{
+    font-size: 60%;
+
+    --color-background: #000000;
+    --color-background-secondary: #ffffff;
+    --color-title-header: #d4cbcb;
+    --color-button-header-primary: #9b9999b0;
+    --color-button-header-secondary: #9b99997e;
+    --color-buttonCancel-form-primary: #FF0000;
+    --color-buttonCancel-form-secondary: #CD0000;
+    --color-buttonConfirm-form-primary: #00EE00;
+    --color-buttonConfirm-form-secondary: #00CD00;
+    --color-button-text: #ffffff;
+    --color-input-background: #C4C4C4;
+    --color-divCadastro-background: #A49D9D;
+    --color-buttonDates-Relatorio: #717171;
+    --color-divDatesRelatorio-background: #9E9898;
+    --color-divDetalhesRelatorio-background: #B4ACAC;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body, #root{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--color-background)
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1.6rem Poppins;
+}
+
+.container{
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media(min-width: 700px){
+    :root{
+        font-size: 62.5%;
+    }
+}

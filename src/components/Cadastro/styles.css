@@ -1,0 +1,40 @@
+#conteudo-page-cadastro{
+
+    background-color: --color-background-secondary;
+    z-index: 1;
+    
+    margin-left: 0%;
+    width: 47.4vw;
+    height: 72.69vh;
+    border-radius: 5em;
+
+}
+
+.conteudo-content{
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: Poppins;
+    
+}
+
+@media only screen and (max-device-width: 900px){
+
+    #conteudo-page-cadastro{
+        position: fixed; 
+        width: 305px;
+        height: 306px;
+        margin-top: 19.5%;
+        margin-left: -1px;
+        border-radius: 4.4rem;
+
+    }
+    #conteudo-page-cadastro
+    .conteudo-content h1{
+        font-weight: 500;
+        font-size: 2rem;
+        font-family: Poppins;
+        margin: 10px;
+    
+    }
+}
+

@@ -1,0 +1,43 @@
+#conteudo-page-login{
+    z-index: 1;
+
+    margin-left: 0.2vw;
+    background-color: --color-background-secondary;
+    width: 63.2vw;
+    height: 77.8vh;
+    margin-bottom: 0.3vh;
+    border-radius: 5em;
+
+    overflow: hidden;
+
+
+}
+
+.conteudo-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+@media only screen and (max-device-width: 900px){
+
+    #conteudo-page-login{
+        position: fixed; 
+        width: 79vw;
+        height: 40vh;
+        border-radius: 4.4rem;
+        margin-right: 1vw;
+
+    }
+    #conteudo-page-login
+    .conteudo-content h1{
+        font-weight: 500;
+        font-size: 2rem;
+        font-family: Poppins;
+        margin: 10px;
+    
+    }
+}
