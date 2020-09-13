@@ -4,7 +4,7 @@
     z-index: 1;
     
     width: 47.4vw;
-    height: 72.69vh;
+    height: 72.4vh;
     border-radius: 5em;
 
 }
@@ -19,12 +19,12 @@
 @media only screen and (max-device-width: 900px){
 
     #conteudo-page-cadastro{
-        position: fixed; 
-        width: 305px;
-        height: 306px;
-        margin-top: 19.5%;
-        margin-left: -1px;
-        border-radius: 4.4rem;
+        position: center; 
+        width: 51.0vw;
+        margin-left: 0.9%;
+        margin-bottom: 31%;
+        height: 37.9vh;
+        border-radius: 3.9rem;
 
     }
     #conteudo-page-cadastro

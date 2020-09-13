@@ -4,7 +4,8 @@
     right: 0;
     left: 0;
     z-index: 2;
-    border-top: 1px solid #ccc
+    border-top: 1px solid #ccc;
+    background-color: var(--color-background);
 
 }
 
@@ -32,6 +33,14 @@
 @media only screen and (max-device-width: 900px){
     #footer-container{
         width: 100vw;
-        height: 7vh;
+        margin: 0;
+        height: 15%;
+
+        
     }
+    .LogoFooter{
+        margin-top: 25px;
+        width: 35rem;
+    }
+
 }

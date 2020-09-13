@@ -9,18 +9,25 @@
     justify-content: center;
     align-items: center;
 
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
+#page-home-content{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
 #page-home-content img{
+    position: center;
     max-width: 100%;
 }
 
 .conteudo-page-home{
     position: absolute;
     
-    margin-bottom: 0.9%;
+    margin-bottom: 0.3%;
     margin-left: 0.7%;
     width: 100vw;
     height: 100vh;
@@ -38,28 +45,22 @@
     #page-home{
         width: 100vw;
         height: 100vh;
-        overflow: hidden;
-        
+        /* overflow-y: hidden; */
     }
 
     #page-home-content{
-        overflow: hidden;
-        position: fixed;
         height: 70vh;
-        
     }
+
 
     #page-home-content img{
-        width: 650px;
-        height: 500px;
+        height: 55vh;
+        width: 100vw;
+        
     }
-
+    
     .conteudo-page-home{
-        display: flex;
-        justify-items: center;
-        justify-content: center;
-        
-        
+        margin-left: 0;
     }
 
 }

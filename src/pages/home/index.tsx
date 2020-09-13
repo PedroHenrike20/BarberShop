@@ -19,7 +19,7 @@ const Home: React.FC<Props> = (props) =>{
                 {props.children}
             </div>
             <div id="page-home-content"> 
-                <img src={ImgFundo} alt="Logo fundo"/>          
+                <img src={ImgFundo} alt="Logo fundo"/>
             </div>
             <Footer/>           
         </div>       
